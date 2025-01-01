@@ -1,0 +1,22 @@
+places = ["India","Nepal","United state","United Kingdom","Japan"]
+print(places)
+length = len(places)
+print(length)
+places.sort()
+print(places)
+print("\n")
+places = ["India","Nepal","United state","United Kingdom","Japan"]
+print(places)
+print("\n")
+places.reverse()
+print(places)
+print("\n")
+places.reverse()
+print(places)
+places.sort()
+print(places)
+places.reverse()
+print(places)
+print(places[-1])
+
+print(places[-2])
