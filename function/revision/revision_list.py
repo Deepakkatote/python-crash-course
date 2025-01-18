@@ -31,3 +31,13 @@ for cars in new_cars_launched:
         print(f"{cars.title()} is available in garage")
     else:
         print(f"{cars.title()} is not available in garage")
+
+
+requeted_toppings = ['chesse','farm house','paneer']
+available_toppings = ["chesse","chillie","paneer",'farm house']
+
+for toppings in requeted_toppings:
+    if toppings in available_toppings:
+        print(f"Here is your {toppings.title()} pijja")
+    else:
+        print(f"We are out of {toppings}")
